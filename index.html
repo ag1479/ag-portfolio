@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashik Gurung</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="welcome-page">
+      <div class="intro">
+        <h1>Hello,</h1>
+        <h1>
+          my name is <span class="name-highlight">Ashik Gurung </span><br />
+          and I'm a front-end/html email developer.
+        </h1>
+        <div class="buttonWrapper">
+          <a class="button" href="#about-page">Click here for more info</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <div id="#navigation">
+        <nav
+          id="navbar"
+          class="navbar navbar-dark navbar-expand-md sticky-top"
+          style="background-color:#223949"
+        >
+          <!-- #DB4437 -->
+          <div class="container-fluid">
+            <a class="navbar-brand" id="brand" href="#welcome-page">A.G</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarResponsive"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#welcome-page"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-page">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio-page">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-page">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div id="about-page" class="pages">
+          <div class="container">
+            <h1 class="mainHeadings">About</h1>
+            <br />
+            <p class="paragraphs">
+              As of now living in London, I am an Information Technology
+              graduate who is passionate about making responsive and
+              user-friendly websites/html emails. For just over a year now I
+              have been getting the hang of everything there is to about the
+              front-end side of web development. You can view my work
+              <a class="portfolio-link" href="#portfolio-page">here</a> to get a
+              better idea of how much I know.
+            </p>
+            <br />
+            <h2 class="subHeadings">My skills</h2>
+            <br />
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <i
+                  class="fab fa-html5 html5Icon frontEndIcons fade-content"
+                ></i>
+                <h3 class="frontEndElements">HTML5</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <i
+                  class="fab fa-css3-alt css3Icon frontEndIcons fade-content"
+                ></i>
+                <h3 class="frontEndElements">CSS3</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <i
+                  class="fab fa-js javascriptIcon frontEndIcons fade-content"
+                ></i>
+                <h3 class="frontEndElements">Javascript</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <i
+                  class="fab fa-react reactIcon frontEndIcons fade-content"
+                ></i>
+                <h3 class="frontEndElements">React</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="portfolio-page" class="pages lightgrey-background">
+          <div class="container-fluid">
+            <h1 class="mainHeadings">Portfolio</h1>
+            <br />
+            <h2 class="subHeadings">HTML E-mails</h2>
+            <br />
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/yumi-tech.png"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Promotional E-mail (Made with: HTML & CSS)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/newsletter.png"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Newsletter E-mail (Made with: HTML & CSS)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/billing.png"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Transactional E-mail (Made with: HTML & CSS)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/iphone11.png"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Promotional E-mail (Made with: HTML & CSS)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+                <h2 class="subHeadings">
+                  Front-End Sites
+                </h2>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/sis.png"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Landing page (Made with: HTML, CSS and Bootstrap 4)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+                  <figure>
+                    <a href="#" target="_blank"
+                      ><img
+                        src="./img/image-gallery.jpg"
+                        class="img-fluid portfolioImages fade-content"
+                    /></a>
+                    <figcaption class="img-captions">
+                      Image gallery site (Made with: HTML, CSS and Bootstrap 4)
+                    </figcaption>
+                  </figure>
+                  <div class="text-center">
+                    <a
+                      class="view-code-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      class="visit-site-button btn btn-info btn-sm"
+                      href="#"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact-page" class="pages">
+          <div class="container-fluid">
+            <h1 class="mainHeadings">Contact me</h1>
+            <br />
+            <h2 class="subHeadings">Get in touch</h2>
+            <br />
+            <div class="contact-details">
+              <div id="row-width" class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-5">
+                  <a href="https://www.linkedin.com/in/ashik-gurung-4b4015108/"
+                    ><i class="fab fa-linkedin fade-content"></i
+                  ></a>
+                  <p class="paragraphs">Linkedin</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-5">
+                  <a href="www.twitter.com/a_g1114"
+                    ><i class="fab fa-twitter-square fade-content"></i
+                  ></a>
+                  <p class="paragraphs">Twitter</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-5">
+                  <a href="mailto:itsashikgurung@gmail.com"
+                    ><i class="fas fa-envelope-square fade-content"></i
+                  ></a>
+                  <p class="paragraphs">E-mail</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-5">
+                  <a href="https://github.com/ag09"
+                    ><i class="fab fa-github-square fade-content"></i
+                  ></a>
+                  <p class="paragraphs">Github</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer class="container-fluid text-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="footer-paragraph">
+              Copyright &copy; 2018&nbsp;&bull; Ashik
+              Gurung&nbsp;&bull;&nbsp;London based Front-End Web Developer
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
