@@ -27,13 +27,3 @@ $(document).ready(function() {
     } // End if
   });
 });
-
-// GENERAL SETTING
-window.sr = ScrollReveal({ reset: true });
-
-// Custom Settings
-sr.reveal(".fade-content", { duration: 2250 });
-
-sr.reveal("fade-content", {
-  viewFactor: 0.5
-});
