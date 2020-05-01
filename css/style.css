@@ -197,6 +197,10 @@ nav .navbar-nav li a {
   color: #4169e1;
 }
 
+.sassIcon {
+  color: #cc6699;
+}
+
 .javascriptIcon {
   color: #cccc00;
 }
@@ -205,9 +209,9 @@ nav .navbar-nav li a {
   color: #00d8ff;
 }
 
-.mailChimpIcon {
+/* .mailChimpIcon {
   color: #646363;
-}
+} */
 
 /* Images */
 
